@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>webprofile01</title>
+    <link rel="shortcut icon" href="./image/hello.png" type="./images" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+      body {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Monomaniac One";
+        background-color: black;
+      }
+      .navbar-sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px 75px;
+        align-items: center;
+      }
+      .navbar-sec .menu a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        font-size: 1.5rem;
+      }
+      .navbar-sec .menu a:hover {
+        color: rgb(7, 205, 240);
+      }
+      .logo {
+        text-align: center;
+      }
+      .logo img {
+        width: 100px;
+      }
+      .social {
+        text-align: right;
+      }
+      .social a {
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 20px;
+      }
+      .social a:hover {
+        color: rgb(7, 205, 240);
+      }
+      .profile-sec {
+        margin-top: 150px;
+      }
+      .profile-sec h1 {
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        line-height: 2rem;
+      }
+      #job {
+        color: #01d5a2;
+      }
+      .img-sec {
+        display: inline-block;
+        text-align: center;
+        border: 2px solid #01d5a2;
+        border-radius: 100%;
+        padding: 10px;
+        margin: 75 auto;
+      }
+      .show-person {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      #mint {
+        width: 300px;
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div class="navbar-sec">
+      <div class="menu">
+        <a href="#">Portfolio</a>
+        <a href="#">About Me</a>
+        <a href="#">Get In Touch</a>
+      </div>
+      <div class="logo">
+        <img src="./image/hello.png" alt="logo" />
+      </div>
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <!-- profile sectiion -->
+    <div class="profile-sec">
+      <h1>Woraprat Khrattamkham</h1>
+      <h1 id="job">Freelance Web Developer</h1>
+      <h1>Based In IOT_SAU THAILAND</h1>
+    </div>
+    <!--  -->
+    <div class="show-person">
+      <div class="img-sec">
+        <img id="mint" src="./image/logoo.jpg" alt="preson" />
+      </div>
+    </div>
+  </body>
+</html>
